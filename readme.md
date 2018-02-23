@@ -21,7 +21,7 @@ md5Regex().test('nodejsrocks 1abcb33beeb811dca15f0ac3e47b88d9');
 md5Regex({exact: true}).test('nodejsrocks 1abcb33beeb811dca15f0ac3e47b88d9 foo');
 //=> false
 
-md5Regex.v6({exact: true}).test('1abcb33beeb811dca15f0ac3e47b88d9');
+md5Regex({exact: true}).test('1abcb33beeb811dca15f0ac3e47b88d9');
 //=> true
 
 'nodejsrocks 1abcb33beeb811dca15f0ac3e47b88d9 rainbow 897b47d80a717715378832539b4c1340'.match(md5Regex());

@@ -1,0 +1,29 @@
+{
+  "name": "md5-regex",
+  "version": "1.0.0",
+  "description": "Regular expression for matching MD5 encoded strings.",
+  "license": "MIT",
+  "repository": "k4m4/md5-regex",
+  "author": {
+    "name": "Nikolaos Kamarinakis",
+    "url": "nikolaskama.me",
+    "email": "nikolaskam@gmail.com"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "keywords": [
+    "md5",
+    "regex"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "devDependencies": {
+    "ava": "*"
+  }
+}

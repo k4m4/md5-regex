@@ -1,6 +1,6 @@
 # md5-regex [![Build Status](https://travis-ci.org/k4m4/md5-regex.svg?branch=master)](https://travis-ci.org/k4m4/md5-regex)
 
-> Regular expression for matching MD5 encoded strings.
+> Regular expression for matching MD5 hashes in strings.
 
 
 ## Install

@@ -1,6 +1,6 @@
 {
   "name": "md5-regex",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Regular expression for matching MD5 hashes in strings.",
   "license": "MIT",
   "repository": "k4m4/md5-regex",

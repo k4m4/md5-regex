@@ -1,11 +1,11 @@
 declare namespace md5Regex {
-    interface Options {
-        /**
-        Only match an exact string. By default, it matches any MD5 hashes in a string. Useful with `RegExp#test()` to check if a string is an MD5 hash.
-        @default false
-        */
-        readonly exact?: boolean;
-    }
+	interface Options {
+		/**
+		Only match an exact string. By default, it matches any MD5 hashes in a string. Useful with `RegExp#test()` to check if a string is an MD5 hash.
+		@default false
+		*/
+		readonly exact?: boolean;
+	}
 }
 
 /**
